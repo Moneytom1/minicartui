@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minicart</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins'rel='stylesheet'>
+  <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script> 
+  </head>
+<body>
+
+  <section class="topbar py-2 border-bottom">
+    <div class="container">
+      <div class="row">
+      <div class="col-4 pt-2">
+      
+          <div class="row">
+            
+            <div class="col-6 col-sm-6">
+              <div class="notifications top-icon-font d-block d-sm-none">
+                <a href="#"><i class="fa-sharp fa-solid fa-heart"></i>
+                  <span class="heart-notification-count">12</span>
+                </a>
+               
+                </div>
+  
+            </div>
+            <div class="col-6 col-sm-6">
+              <div class="notifications top-icon-font d-block d-sm-none">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i>
+                  <span class="shopping-cart-count">12</span>
+                </a>
+               
+              </div>
+         
+          </div>
+        </div>
+      </div>
+        <div class="col-8 d-flex justify-content-end">
+          <a href="" class="text-decoration-none p-1 px-3 text-black fw-semibold mr-4"><i class="fas fa-lock"></i> Login</a>
+          <a href="" class="text-decoration-none py-2 px-3 text-white fw-semibold bg-mini-cart-red "><i class="fas fa-user-plus"></i> Register</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  
+
+<section class="header">
+  <div class="container pt-4">
+    <div class="row d-flex align-items-center">
+      <div class="col-md-3 mb-3">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo/minicart-logo.svg" alt="minicart" width="180" >
+        </a>
+        
+      </div>
+      <div class="col-md-7">
+        <form method="GET">
+          <div class="input-group">
+
+              <input type="search" class="form-control remove-focus fw-semibold bg-search text-search-color border-none" name="search" id="search" placeholder="Search Products" aria-label="Search Products" aria-describedby="search-addon">
+              <span class="input-group-text bg-mini-cart-red" id="search-addon  p-0 m-0">
+                <button  class="btn bg-mini-cart-red text-white btn-sm" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </span>
+            </div>
+        </form>
+      </div>
+      <div class="col-md-2 d-none d-sm-block">
+        <div class="row">
+          <div class="col-sm-6 ">
+            <div class="notifications">
+              <a href="#"><i class="fa-sharp fa-solid fa-heart"></i>
+                <span class="heart-notification-count">12</span>
+              </a>
+             
+            </div>
+
+          </div>
+          <div class="col-sm-6">
+            <div class="notifications">
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i>
+                <span class="shopping-cart-count">12</span>
+              </a>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  </div>
+
+</section>
+<section class=" navigation">
+ 
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg nav-bg  navbar-light mt-4 py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+
+      <div class="container ">
+      
+        <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="  collapse navbar-collapse " id="navbarCollapse">
+            <div class="navbar-nav mx-auto  py-2  " >
+                <a href="index.html" class="nav-item  nav-link text-white">HOME</a>
+                <a href="about.html" class="nav-item nav-link  text-white">MEN'S WEAR</a>
+                <a href="service.html" class="nav-item nav-link text-white">WOMEN'S WEAR</a>
+                <a href="project.html" class="nav-item nav-link text-white">SANDALS</a>
+                <a href="project.html" class="nav-item nav-link text-white">SHIRTS</a>
+                <a href="project.html" class="nav-item nav-link text-white">SHORTS</a>
+                <a href="project.html" class="nav-item nav-link text-white">BAGS</a>
+                <a href="project.html" class="nav-item nav-link text-white">CONTACT US</a>
+        
+            </div>
+        </div>
+      </div>
+     
+  </nav> <!-- Navbar End -->
+  <div class="container product-bg py-2 mb-3">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#" class="text-black text-decoration-none">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">contact</li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+
+<div class="container mb-5">
+  <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=667&amp;height=400&amp;hl=en&amp;q=Stormcell, NTA ROAD&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://gachanox.io/">Gacha Nox</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 contact-info-icons ">
+      <h5 class="fw-bolder">CONTACT</h5>
+      <P style="color: #AE2D45; font-size:0.7rem;">If you need any help, please contact us or send us an email or go to our forum.
+        We are sure that you can receive our reply as soon as possible.</P>
+        <div class="col-md-6 d-flex">
+          <li class="fa fa-location-dot rounded-circle shadow-sm p-3 mb-5 bg-body rounded me-2 d-flex justify-content-center   align-items-center "></li>
+          <div class="">
+           <h6 class="fw-bolder ">Address</h6>
+           <p class="contact-text-font">151 NTA Rd, beside Graymed Pharmacy, Mgbuoba 500272, Port Harcourt, Rivers</p>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex  padding-top">
+          <li class="fa fa-phone rounded-circle shadow-sm p-3 mb-5 bg-body rounded me-2 d-flex justify-content-center   align-items-center"></li>
+          <div  class="">
+           <h6 class="fw-bolder">Phone</h6>
+           <p class="contact-text-font">(+123) 456 789 - (+204) 666 8881</p>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex">
+          <li class="fa-solid fa-envelope rounded-circle shadow-sm p-3 mb-5 bg-body rounded me-2 d-flex justify-content-center   align-items-center"></li>
+          <div  class="">
+           <h6 class="fw-bolder ">Email</h6>
+           <p class="contact-text-font">contact@yourcompany.com</p>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex">
+          <li class="fa-solid fa-clock rounded-circle shadow-sm p-3 mb-5 bg-body rounded me-2 d-flex justify-content-center   align-items-center"></li>
+          <div  class="">
+           <h6 class="fw-bolder">Hours</h6>
+           <p class="contact-text-font">Mon-Sat 9:00pm - 5:00pm Sun:Closed</p>
+          </div>
+        </div>
+    </div> 
+    <div class="col-md-6">
+      <h5>GET IN TOUCH WITH US</h5>
+      <p style="color: #AE2D45;font-size: 0.7rem;">If you have any question, Please don’t hesitate to send us a message</p>
+      <form action="">
+        <div class="col-md-10">
+          <div class="mb-3">
+            <label for="Name" class="form-label">Name</label>
+            <input type="text" class="form-control rounded-0" id="Name" aria-describedby="emailHelp" placeholder="Name">
+          </div>
+  
+          <div class="mb-3">
+            <label for="emailInput" class="form-label">Email address</label>
+            <input type="text" class="form-control rounded-0" id="Name" aria-describedby="emailHelp" placeholder="Email Address">
+          </div>
+          <div class="mb-3">
+            <label for="Subject" class="form-label">Subject</label>
+            <input type="text" class="form-control rounded-0" id="Subject" placeholder="Subject">
+          </div>
+          <div class="mb-3">
+            <label for="Phone" class="form-label">Phone</label>
+            <input type="number" class="form-control rounded-0" id="Phone" placeholder="Enter Phone">
+          </div>
+          <div class="mt-5 mb-4">
+            <h6 class="fw-lighter label">Write your message</h6>
+            <textarea name="" id="" cols="55" rows="3" class="form-control rounded-0">Message</textarea>
+            <button type="button" class="  btn btn-danger rounded-0 mt-3 form-control">SEND MESSAGE</button>
+          </div>
+        </div>
+      </form>
+  </div>
+</div>
+</div>
+
+
+
+      <section>
+        <div class="container d-flex p-md-0 mb Products-text-style mt-4 bg-products ">
+            <div class="row " >
+              <div class="mb-5 mt-4">
+                <h4 class="fw-bolder">LATEST PRODUCTS</h4>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="image-wrapper">
+                  <img src="/images/top-product (8).png" alt="" width="100%">
+                  <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+                    <div class="icon-wrapper">
+                      <i class="fa fa-heart me-3"></i>
+                      <i class="fa fa-search"></i>
+                    </div>
+                    <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+                  </div>
+                </div>
+                <div class="container mt-3 ">
+                  <h6 class="mb-3">Adicolor Classics Joggers</h6>
+                  <div class="d-flex justify-content-between p-tags-fonts-style">
+                  <p style="color:rgba(0, 0, 0, 0.308);">Dress</p>
+                  <p>N63.83</p>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-6 col-md-3">
+                <div class="image-wrapper">
+                  <img src="/images/top-product.png" alt="" width="100%">
+                  <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+                    <div class="icon-wrapper">
+                      <i class="fa fa-heart me-3"></i>
+                      <i class="fa fa-search"></i>
+                    </div>
+                    <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+                  </div>
+                </div>
+               <div class="container mt-3 ">
+                  <h6 class="mb-3">Nike Sportswear Futura Luxe</h6>
+                  <div class="d-flex justify-content-between p-tags-fonts-style">
+                    <p style="color:rgba(0, 0, 0, 0.308);">Bag</p>
+                  <p>N63.83</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="image-wrapper">
+                  <img src="/images/top-product (6).png" alt="" width="100%">
+                  <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+                    <div class="icon-wrapper">
+                      <i class="fa fa-heart me-3"></i>
+                      <i class="fa fa-search"></i>
+                    </div>
+                    <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+                  </div>
+                </div>
+                <div class="container mt-3 ">
+                  <h6 class="mb-3">Geometric print Scarf</h6>
+                  <div class="d-flex justify-content-between p-tags-fonts-style">
+                  <p style="color:rgba(0, 0, 0, 0.308);">Scarf</p>
+                  <p>N63.83</p>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-6 col-md-3">
+                <div class="image-wrapper">
+                  <img src="/images/top-product (5).png" alt="" width="100%">
+                  <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+                    <div class="icon-wrapper">
+                      <i class="fa fa-heart me-3"></i>
+                      <i class="fa fa-search"></i>
+                    </div>
+                    <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+                  </div>
+                </div>
+               <div class="container mt-3 ">
+                  <h6 class="mb-3">Yellow Reserved Hoodie</h6>
+                  <div class="d-flex justify-content-between p-tags-fonts-style">
+                  <p style="color:rgba(0, 0, 0, 0.308);">Dress</p>
+                  <p>N63.83</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <div class="container mt-3">
+          <div class="col-md-6 d-flex">
+          <li class="fa fa-less-than rounded-0 shadow-sm p-3 mb-5 bg-body rounded me-2 d-flex justify-content-center   align-items-center text-danger btn-hover"></li>
+          <li class="fa fa-greater-than rounded-0 shadow-sm p-3 mb-5 bg-body rounded me-2 d-flex justify-content-center   align-items-center text-danger btn-hover"></li>
+      </div>
+
+      <section>
+        <div class="container col-md-p-0 mt-5 contact-style  fst-normal">
+          <div class="row">
+            <div class="col-6 col-md-3 mb-4">
+              <img src="images/logo/minicart-logo.svg" class="mb-3" width="50%">
+              <p class=" pt-2 lh-lg ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia eum cumque l est sapiente debitis?</p>
+              <div class="row">
+                <div class="col-6 col-md-6 d-flex justify-content-between lh-lg">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+            
+          <div class=" nav col-6 col-md-3 d-flex flex-column">
+            <h2 class="nav-item  nav-link text-dark ">CATALOG</h2>
+            <a href="#"class="nav-item  nav-link text-dark">Necklaces</a>
+            <a href="#"class="nav-item  nav-link text-dark">hoodies</a>
+            <a href="#"class="nav-item  nav-link text-dark">Jewelry Box</a>
+            <a href="#"class="nav-item  nav-link text-dark">t-shirt</a>
+            <a href="#"class="nav-item  nav-link text-dark">jacket</a>
+          </div>
+          <div class="nav  col-6 col-md-3 d-flex flex-column pt-2">
+                <h6 class="nav-item  nav-link text-dark">ABOUT US</h6>
+                <a href="#"class="nav-item  nav-link text-dark">Our Products</a>
+                <a href="#"class="nav-item  nav-link text-dark">Sitemap</a>
+                <a href="#"class="nav-item  nav-link text-dark">FAQ</a>
+                <a href="#"class="nav-item  nav-link text-dark">About Us</a>
+                <a href="#"class="nav-item  nav-link text-dark">Terms & Conditions</a>
+            </div>
+            
+            <div class=" nav col-6 col-md-3 d-flex flex-column  pt-2">
+              <h6 class="nav-item  nav-link text-dark">CUSTOMER SERVICES</h6>
+              <a href="#"class="nav-item  nav-link text-dark">Contact Us</a>
+              <a href="#"class="nav-item  nav-link text-dark">Track Your Order</a>
+              <a href="#"class="nav-item  nav-link text-dark">Product Care & Repair</a>
+              <a href="#"class="nav-item  nav-link text-dark">Book an Appointment</a>
+              <a href="#"class="nav-item  nav-link text-dark">Shipping & Returns</a>
+            </div>
+        </div>
+      </div>
+      </section>
+      
+      <footer>
+        <div class="container-fluid bg-dark text-white  align-self-center mt-5">
+          <div class="row d-flex justify-content-between ">
+            <div class="col-5 col-md-4 d-flex justify-content-center align-self-center mt-2">
+              <p>2022 minicart , Inc.</p>
+            </div>
+            <div class="col-3 col-md-4 m-auto ">
+              <img src="/images/icons_payment 1.png" alt="" class="" width="80%">
+            </div>
+            <div class="col-4 col-md-4 mt-2">
+              <button onclick="scrollToTop()" id="scrollToTopBtn" class=" btn btn-dark fs-6">Scroll To Top<i class="fa-solid fa-arrow-up ms-1"></i></button>
+      
+            </div>
+          </div>
+        </div>
+        
+      </footer>
+
+</body>
+</html>

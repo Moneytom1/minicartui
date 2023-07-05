@@ -1,0 +1,472 @@
+body{
+  margin: 0;
+  padding:0;
+  background-color: #FFFFFF;
+  font-family:'Poppins' !important;
+}
+
+/*
+Top section mini cart
+  contains login and register link
+*/
+
+ .topbar {
+
+  border-color: #ededed !important;
+}
+.bg-mini-cart-red,.bg-mini-cart-red:disabled{
+  background-color: #CB1F3F !important;
+}
+.bg-mini-cart-red:hover{
+  background-color: #CB1F3F !important;
+}
+
+.notifications {
+  position: relative;
+}
+
+.top-icon-font i {
+  font-size: 1.5rem !important;
+}
+.notifications i {
+  font-size: 1.8rem;
+  color:#041E3F;
+}
+.notifications a {
+  position: relative;
+  display: inline-block;
+}
+.notifications a span {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: #CB1F3F;
+  color: #FFFFFF;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+ 
+}
+
+.remove-focus,.remove-focus:hover,.remove-focus:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+
+}
+.bg-search {
+  background-color: #D9D9D9 !important;
+}
+.text-search-color {
+  color: #424242 !important;
+}
+.navbar-toggler {
+  position: absolute;
+  right: 0;
+  top: -90px;
+}
+.nav-bg{
+   background-color: #190044 !important;
+}
+
+.empty-bg{
+  background-color: #D9D9D9 !important;
+  height: 364px;
+  margin-bottom: 30px;
+}
+
+.Selection{
+  font-family:'poppins' !important;
+  color:#a39797 !important;
+
+}
+
+.Selection a:hover{
+  color: red !important;
+  transition: ease 3ms !important;
+}
+.Selection .filter:hover{
+  background-color: #ef4a2dcb !important;
+  color: white !important;
+  transition: ease 3ms !important;
+}
+
+.Products-text-style{
+  font-family: 'poppins';
+  font-weight:100;
+}
+
+.p-tags-fonts-style{
+  font-family: open;
+  font-size: 1rem;
+  font-weight:700;
+}
+
+.brand-banner{
+  background-image: url(/images/background.png);
+  /* width:100%; */
+  height:450px;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+
+.btn-white{
+  background-color: #FFFFFF !important;
+}
+
+.contact-style{
+  font-size: 0.85rem;
+}
+.contact-style a:hover{
+  color:red !important;
+  transition: 0.3s !important;
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 0.7rem;
+  font-family: poppins;
+  font-weight: 100;
+}
+
+.image-wrapper:hover .text-overlay {
+  opacity: 1;
+  transition: 0.3s !important;
+}
+
+.shop-now:hover{
+ color:rgba(232, 69, 69, 0.667) !important;
+ transition: 0.3s !important;
+}
+
+.text-overlay-content {
+  position: absolute;
+  bottom:55px;
+  left: 0;
+  font-size: 0.7rem;
+  width: 70%;
+  font-family: poppins;
+  font-weight: 100;
+  background-color:rgba(255, 255, 255, 0.411);
+  
+}
+
+.text-overlay-wrapper{
+  position: absolute;
+  bottom:25px;
+  left: 0;
+  font-size: 0.7rem;
+  width: 100%;
+  font-family: poppins !important;
+  font-weight:300;
+  background-color:rgba(0, 0, 0, 0.559);
+  color:rgba(255, 255, 255, 0.781) !important;
+}
+
+.text-overlay-wrapper .dress-title{
+  font-size: 0.6rem;
+}
+#scrollToTopBtn:hover{
+  background-color: rgba(255, 2, 2, 0.443) !important;
+  transition: 0.3s !important;
+  color: rgba(255, 255, 255, 0.53);
+
+}
+
+.text-overlay-bg{
+  position: absolute;
+  top: 50px;
+  left: 0;
+  font-size: 0.7rem;
+  width: 100%;
+  font-family: poppins !important;
+  font-weight:300;
+  background-color:rgba(0, 0, 0, 0.459);
+  color:rgba(255, 255, 255, 0.781) !important;
+
+}
+
+.Content-bg{
+  background-color: rgba(255, 255, 255, 0.61);
+  font-size: 0.5rem;
+}
+
+.text-overlay-bg a:hover{
+  color: red !important;
+  transition: 0.3s !important;
+
+}
+
+.overlay-content-onhover{
+  position: absolute;
+  bottom:0px;
+  left: 0;
+  width: 100%;
+  font-family: poppins !important;
+  font-weight:300;
+  background-color:black;
+  color:white !important;
+  opacity: 0;
+}
+.overlay-content-onhover h6{
+  font-size: 0.7rem !important;
+}
+.image-wrapper:hover .overlay-content-onhover{
+   opacity:1;
+   transition: 0.3s !important
+}
+
+.product-bg{
+  background-color: #D9D9D9 !important;
+}
+
+.btn-light{
+  background-color: white !important;
+  border: 1px solid white !important;
+}
+
+.Add-To-Wishlist{
+  background-color: #D9D9D9 !important;
+  border: 1px solid #D9D9D9 !important;
+}
+
+.twitter-color{
+  color: #1DA1F2 ;
+}
+
+.instagram-color{
+color: #E1306C;
+}
+
+.facebook-color{
+  color: #1877F2;
+}
+
+.Reviews{
+  background-color: #190044 !important;
+}
+.bg-hash{
+  background-color:#f4f2f2;
+}
+
+.contact-text-font {
+  font-size: 0.6rem !important;
+  color: #1e024d !important;
+}
+.contact-info-icons li{
+  color: #CB1F3F !important;
+}
+
+.contact-info-icons h6{
+ font-size: 0.7rem !important;
+ color: #190044 !important;
+}
+
+.shadow-sm{
+  width:2% !important;
+  height: 3px !important;
+}
+label {
+  font-size: 0.7rem !important;
+}
+.label{
+  font-size: 0.7rem !important;
+}
+::placeholder{
+  font-size: 0.7rem !important;
+  color: #BEBEBE;
+}
+input:focus{
+  border: 1px solid #190044 !important;
+  box-shadow:none !important;
+  /* outline: 0 none !important; */
+ background-color: #bebebe0e !important;
+}
+
+
+.bg-products{
+  background-color: #F9F9F9 !important;
+}
+
+.btn-send-message{
+  font-size: 0.6rem !important;
+}
+
+
+input[type="text"] {
+  font-size: 0.6rem !important;
+}
+input[type="number"] {
+  font-size: 0.6rem !important;
+}
+
+textarea {
+  font-size: 0.7rem !important;
+  color:rgba(0, 0, 0, 0.721) ;
+}
+textarea:focus{
+  border: 1px solid black !important;
+  outline: black !important;
+  box-shadow:none !important;
+}
+
+.btn-hover:hover{
+  background-color: rgba(208, 7, 7, 0.884) !important;
+  color: white !important;
+  transition: 3ms;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #BCBCBC !important;
+}
+ /* country picker-css */
+ .md-country-picker-item {
+  position: relative;
+  line-height: 20px;
+  padding: 10px 0 10px 40px;
+}
+
+.md-country-picker-flag {
+  position: absolute;
+  left: 0;
+  height: 20px;
+}
+
+.mbsc-scroller-wheel-item-2d .md-country-picker-item {
+  transform: scale(1.1);
+}
+
+
+#country{
+   width: 100% !important;
+   font-size: 0.6rem;
+   color: rgba(0, 0, 0, 0.781);
+}
+.padding{
+  height: 30px;
+}
+
+option{
+  font-size: 0.5rem;
+}
+
+.zip-code ::placeholder{
+  font-size:0.6rem!important;
+  color: rgba(0, 0, 0, 0.854) !important;
+}
+
+.cart-summary h6{
+  font-size: 0.7rem;
+}
+
+.cart-summary p{
+  font-size: 0.7rem;
+}
+
+.cart-summary i{
+  font-size: 0.7rem;
+}
+.item-drescription h6{
+font-size: 0.8rem !important;
+}
+
+.btn-update-shopping-cart{
+  background-color: #190044 !important;
+
+}
+
+.btn-update-shopping-cart:hover{
+  background-color: #130232 !important;
+
+}
+
+.btn-shopping-cart button{
+  font-size: 0.7rem !important;
+}
+.btn-proceed-to-checkout{
+  font-size: 0.7rem !important;
+}
+.Returning-customer{
+ position: relative;
+}
+.click-to-login-link{
+  position: absolute;
+  bottom:12px;
+  right: 0;
+  font-size:0.7rem !important ;
+}
+.dot-circle p{
+  font-size: 3rem !important;
+  color: #041E3F;
+}
+
+.lodin-form-placeholder ::placeholder{
+  margin-left:40px !important;
+}
+
+input[type="email"] {
+  font-size: 0.6rem !important;
+}
+
+input[type="password"] {
+  font-size: 0.6rem !important;
+}
+
+#passwordInput{
+  padding-left: 25px !important;
+}
+
+#Confirm-password{
+  padding-left: 25px !important;
+}
+
+#emailInput{
+  padding-left:25px !important;
+}
+#nameInput{
+    padding-left:25px !important;
+}
+
+
+.Input-container{
+  position: relative;
+}
+
+.Input-icon{
+  position: absolute;
+  bottom:9px;
+  left: 10px;
+  font-size: 0.7rem;
+}
+
+/* @keyframes shake {
+  0% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+  20%, 40%, 60%, 80% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake-border {
+  animation: shake 0.4s ease-in-out;
+  animation-fill-mode: both;
+} */
+

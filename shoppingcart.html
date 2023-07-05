@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minicart</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins'rel='stylesheet'>
+  <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script> 
+  </head>
+<body>
+
+  <section class="topbar py-2 border-bottom">
+    <div class="container">
+      <div class="row">
+      <div class="col-4 pt-2">
+      
+          <div class="row">
+            
+            <div class="col-6 col-sm-6">
+              <div class="notifications top-icon-font d-block d-sm-none">
+                <a href="#"><i class="fa-sharp fa-solid fa-heart"></i>
+                  <span class="heart-notification-count">12</span>
+                </a>
+               
+                </div>
+  
+            </div>
+            <div class="col-6 col-sm-6">
+              <div class="notifications top-icon-font d-block d-sm-none">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i>
+                  <span class="shopping-cart-count">12</span>
+                </a>
+               
+              </div>
+         
+          </div>
+        </div>
+      </div>
+        <div class="col-8 d-flex justify-content-end">
+          <a href="" class="text-decoration-none p-1 px-3 text-black fw-semibold mr-4"><i class="fas fa-lock"></i> Login</a>
+          <a href="" class="text-decoration-none py-2 px-3 text-white fw-semibold bg-mini-cart-red "><i class="fas fa-user-plus"></i> Register</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  
+
+<section class="header">
+  <div class="container pt-4">
+    <div class="row d-flex align-items-center">
+      <div class="col-md-3 mb-3">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo/minicart-logo.svg" alt="minicart" width="180" >
+        </a>
+        
+      </div>
+      <div class="col-md-7">
+        <form method="GET">
+          <div class="input-group">
+
+              <input type="search" class="form-control remove-focus fw-semibold bg-search text-search-color border-none" name="search" id="search" placeholder="Search Products" aria-label="Search Products" aria-describedby="search-addon">
+              <span class="input-group-text bg-mini-cart-red" id="search-addon  p-0 m-0">
+                <button  class="btn bg-mini-cart-red text-white btn-sm" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </span>
+            </div>
+        </form>
+      </div>
+      <div class="col-md-2 d-none d-sm-block">
+        <div class="row">
+          <div class="col-sm-6 ">
+            <div class="notifications">
+              <a href="#"><i class="fa-sharp fa-solid fa-heart"></i>
+                <span class="heart-notification-count">12</span>
+              </a>
+             
+            </div>
+
+          </div>
+          <div class="col-sm-6">
+            <div class="notifications">
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i>
+                <span class="shopping-cart-count">12</span>
+              </a>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  </div>
+
+</section>
+<section class=" navigation">
+ 
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg nav-bg  navbar-light mt-4 py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+
+      <div class="container ">
+      
+        <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="  collapse navbar-collapse " id="navbarCollapse">
+            <div class="navbar-nav mx-auto  py-2  " >
+                <a href="index.html" class="nav-item  nav-link text-white">HOME</a>
+                <a href="about.html" class="nav-item nav-link  text-white">MEN'S WEAR</a>
+                <a href="service.html" class="nav-item nav-link text-white">WOMEN'S WEAR</a>
+                <a href="project.html" class="nav-item nav-link text-white">SANDALS</a>
+                <a href="project.html" class="nav-item nav-link text-white">SHIRTS</a>
+                <a href="project.html" class="nav-item nav-link text-white">SHORTS</a>
+                <a href="project.html" class="nav-item nav-link text-white">BAGS</a>
+                <a href="project.html" class="nav-item nav-link text-white">CONTACT US</a>
+        
+            </div>
+        </div>
+      </div>
+     
+  </nav> <!-- Navbar End -->
+  <div class="container product-bg py-2 mb-3">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#" class="text-black text-decoration-none">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<section>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-7 item-drescription">
+                <div class="d-flex justify-content-between border-bottom">
+                    <h6 class="fw-bold">Item</h6>
+                    <div class="col-6 col-md-4 d-flex justify-content-between me-1">
+                     <h6 class="fw-bold">Price</h6>
+                     <h6 class="fw-bold">Qty</h6>
+                     <h6 class="fw-bold">Subtotal</h6>
+                </div>
+                </div>
+                <div class="mt-5 mb-3 d-flex">
+                  <div class="col-md-7 d-flex">
+                    <img src="/images/image-product-4 (1).png" alt="" width="50%">
+                    <p class="mt-4 col-md-3">PINK FEMALE SCHOOL BAG</p>
+                  </div>
+                  <div class=" col-6 col-md-4 d-flex justify-content-between ms-5">
+                    <h6>$45.00</h6>
+                    <!-- <div class="d-flex counter-container bg-info p-2">
+                       <span onclick="decreaseCounter()"> - </span>
+                       <span id="counter"> 0 </span>
+                       <span onclick="increaseCounter()"> + </span>
+                    </div> -->
+
+                    <div class="counter-container">
+                      <button onclick="decreaseCounter()">-</button>
+                      <span id="counter">0</span>
+                      <button onclick="increaseCounter()">+</button>
+                    </div>
+                    
+                    <h6 class="fw-bold">$50.00</h6>
+                    </div>
+                </div>
+                <div class="border-bottom mt-5">
+
+                </div>
+                <div class=" mt-4 mb-4 btn-shopping-cart">
+                  <button type="button" class="btn btn-danger rounded-0">Continue Shopping</button>
+                  <button type="button" class="btn btn-update-shopping-cart rounded-0 text-white">Update Shopping Cart</button>
+                </div>
+              </div>
+            <div class="col-md-1">
+
+            </div>
+
+            <div class="col-md-4">
+                <div class=" border-bottom item-drescription ">
+                    <h6 class="fw-bold">Summary</h6>
+                </div>
+                <div class=" mt-2">
+                   <p style="font-size: 0.7rem;line-height:30px;">Estimate Shipping And Tax <br>Enter Your Destination To Get A Shipping Estimate</p>
+                </div>
+                <form action="#">
+                  <div class=" form-group mb-3">
+                    <label for="Country" class="form-label fw-normal">Country</label>
+                    <select class="custom-select rounded-0 padding"  id="country">
+                      <option value="" selected disabled hidden>United State</option>
+                      <option value="Nigeria">Nigeria</option>
+                      <option value="Ghana">Ghana</option>
+                      <option value="Cameron">Cameroon</option>
+                      <option value="United state">United state</option>
+                    </select>
+                  </div>
+                  <div class="form-group mb-3">
+                    <label for="country"class="form-label fw-normal ">State/Province</label>
+                    <select class="custom-select rounded-0 padding" id="country">
+                      <option value="" selected disabled hidden>Please select a region, state or Province</option>
+                      <option value="Rivers">Rivers</option>
+                      <option value="Abuja">Abuja</option>
+                      <option value="Lagos">Lagos</option>
+                      <option value="Imo">Imo</option>
+                      <option value="Benin">Benin</option>
+                    </select>
+                  </div>
+                  <div class="mb-3 zip-code">
+                    <label for="Phone" class="form-label fw-normal">Zip/Postal Code</label>
+                    <input type="text" class="form-control rounded-0 p-2" id="Phone" placeholder="Enter your zip/postal Code">
+                  </div>
+                  <div class=" mt-5 cart-summary">
+                    <div class="border-bottom d-flex justify-content-between">
+                      <h6 class="ms-2">Subtotal</h6>
+                      <h6 class="me-3">$65.</h6>
+                    </div>
+                    <div class="d-flex justify-content-between mt-3">
+                      <div class="d-flex">
+                        <h6 class="ms-2 fw-bolder me-1">Shipping</h6>
+                        <p>(Flat Rate-Fixed)</p>
+                      </div>
+                      <p class="me-3">$5.0</p>
+                     
+                    </div>
+                   <div class="border-bottom d-flex justify-content-between">
+                    <h6 class="ms-2 fw-bolder">Order Total</h6>
+                    <p class="me-3">$50</p>
+                   </div>
+                   <div class="d-flex justify-content-between mt-3 me-3">
+                   <p class="ms-2">Apply discount Code</p>
+                   <i class="fa fa-angle-down me-2 "></i>
+                   </div>
+                   <div class=" mt-3">
+                    <button type="button" class="btn btn-danger form-control rounded-0 btn-proceed-to-checkout">Proceed To Checkout</button>
+                   </div>
+                  </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section>
+    <div class="container d-flex p-md-0 mb Products-text-style mt-4 bg-products ">
+        <div class="row " >
+          <div class="mb-5 mt-4">
+            <h4 class="fw-bolder">LATEST PRODUCTS</h4>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-wrapper">
+              <img src="/images/top-product (8).png" alt="" width="100%">
+              <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+                <div class="icon-wrapper">
+                  <i class="fa fa-heart me-3"></i>
+                  <i class="fa fa-search"></i>
+                </div>
+                <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+              </div>
+            </div>
+            <div class="container mt-3 ">
+              <h6 class="mb-3">Adicolor Classics Joggers</h6>
+              <div class="d-flex justify-content-between p-tags-fonts-style">
+              <p style="color:rgba(0, 0, 0, 0.308);">Dress</p>
+              <p>N63.83</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-6 col-md-3">
+            <div class="image-wrapper">
+              <img src="/images/top-product.png" alt="" width="100%">
+              <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+                <div class="icon-wrapper">
+                  <i class="fa fa-heart me-3"></i>
+                  <i class="fa fa-search"></i>
+                </div>
+                <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+              </div>
+            </div>
+           <div class="container mt-3 ">
+              <h6 class="mb-3">Nike Sportswear Futura Luxe</h6>
+              <div class="d-flex justify-content-between p-tags-fonts-style">
+                <p style="color:rgba(0, 0, 0, 0.308);">Bag</p>
+              <p>N63.83</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-wrapper">
+              <img src="/images/top-product (6).png" alt="" width="100%">
+              <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+                <div class="icon-wrapper">
+                  <i class="fa fa-heart me-3"></i>
+                  <i class="fa fa-search"></i>
+                </div>
+                <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+              </div>
+            </div>
+            <div class="container mt-3 ">
+              <h6 class="mb-3">Geometric print Scarf</h6>
+              <div class="d-flex justify-content-between p-tags-fonts-style">
+              <p style="color:rgba(0, 0, 0, 0.308);">Scarf</p>
+              <p>N63.83</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-6 col-md-3">
+            <div class="image-wrapper">
+              <img src="/images/top-product (5).png" alt="" width="100%">
+              <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+                <div class="icon-wrapper">
+                  <i class="fa fa-heart me-3"></i>
+                  <i class="fa fa-search"></i>
+                </div>
+                <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+              </div>
+            </div>
+           <div class="container mt-3 ">
+              <h6 class="mb-3">Yellow Reserved Hoodie</h6>
+              <div class="d-flex justify-content-between p-tags-fonts-style">
+              <p style="color:rgba(0, 0, 0, 0.308);">Dress</p>
+              <p>N63.83</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="container mt-3">
+      <div class="col-md-6 d-flex">
+      <li class="fa fa-less-than rounded-0 shadow-sm p-3 mb-5 bg-body rounded me-2 d-flex justify-content-center   align-items-center text-danger btn-hover"></li>
+      <li class="fa fa-greater-than rounded-0 shadow-sm p-3 mb-5 bg-body rounded me-2 d-flex justify-content-center   align-items-center text-danger btn-hover"></li>
+  </div>
+
+  <section>
+    <div class="container col-md-p-0 mt-5 contact-style  fst-normal">
+      <div class="row">
+        <div class="col-6 col-md-3 mb-4">
+          <img src="images/logo/minicart-logo.svg" class="mb-3" width="50%">
+          <p class=" pt-2 lh-lg ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia eum cumque l est sapiente debitis?</p>
+          <div class="row">
+            <div class="col-6 col-md-6 d-flex justify-content-between lh-lg">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+        
+      <div class=" nav col-6 col-md-3 d-flex flex-column">
+        <h2 class="nav-item  nav-link text-dark ">CATALOG</h2>
+        <a href="#"class="nav-item  nav-link text-dark">Necklaces</a>
+        <a href="#"class="nav-item  nav-link text-dark">hoodies</a>
+        <a href="#"class="nav-item  nav-link text-dark">Jewelry Box</a>
+        <a href="#"class="nav-item  nav-link text-dark">t-shirt</a>
+        <a href="#"class="nav-item  nav-link text-dark">jacket</a>
+      </div>
+      <div class="nav  col-6 col-md-3 d-flex flex-column pt-2">
+            <h6 class="nav-item  nav-link text-dark">ABOUT US</h6>
+            <a href="#"class="nav-item  nav-link text-dark">Our Products</a>
+            <a href="#"class="nav-item  nav-link text-dark">Sitemap</a>
+            <a href="#"class="nav-item  nav-link text-dark">FAQ</a>
+            <a href="#"class="nav-item  nav-link text-dark">About Us</a>
+            <a href="#"class="nav-item  nav-link text-dark">Terms & Conditions</a>
+        </div>
+        
+        <div class=" nav col-6 col-md-3 d-flex flex-column  pt-2">
+          <h6 class="nav-item  nav-link text-dark">CUSTOMER SERVICES</h6>
+          <a href="#"class="nav-item  nav-link text-dark">Contact Us</a>
+          <a href="#"class="nav-item  nav-link text-dark">Track Your Order</a>
+          <a href="#"class="nav-item  nav-link text-dark">Product Care & Repair</a>
+          <a href="#"class="nav-item  nav-link text-dark">Book an Appointment</a>
+          <a href="#"class="nav-item  nav-link text-dark">Shipping & Returns</a>
+        </div>
+    </div>
+  </div>
+  </section>
+  
+  <footer>
+    <div class="container-fluid bg-dark text-white  align-self-center mt-5">
+      <div class="row d-flex justify-content-between ">
+        <div class="col-5 col-md-4 d-flex justify-content-center align-self-center mt-2">
+          <p>2022 minicart , Inc.</p>
+        </div>
+        <div class="col-3 col-md-4 m-auto ">
+          <img src="/images/icons_payment 1.png" alt="" class="" width="80%">
+        </div>
+        <div class="col-4 col-md-4 mt-2">
+          <button onclick="scrollToTop()" id="scrollToTopBtn" class=" btn btn-dark fs-6">Scroll To Top<i class="fa-solid fa-arrow-up ms-1"></i></button>
+  
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minicart</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins'rel='stylesheet'>
+  <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script> 
+  </head>
+<body>
+
+  <section class="topbar py-2 border-bottom">
+    <div class="container">
+      <div class="row">
+      <div class="col-4 pt-2">
+      
+          <div class="row">
+            
+            <div class="col-6 col-sm-6">
+              <div class="notifications top-icon-font d-block d-sm-none">
+                <a href="#"><i class="fa-sharp fa-solid fa-heart"></i>
+                  <span class="heart-notification-count">12</span>
+                </a>
+               
+                </div>
+  
+            </div>
+            <div class="col-6 col-sm-6">
+              <div class="notifications top-icon-font d-block d-sm-none">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i>
+                  <span class="shopping-cart-count">12</span>
+                </a>
+               
+              </div>
+         
+          </div>
+        </div>
+      </div>
+        <div class="col-8 d-flex justify-content-end">
+          <a href="" class="text-decoration-none p-1 px-3 text-black fw-semibold mr-4"><i class="fas fa-lock"></i> Login</a>
+          <a href="" class="text-decoration-none py-2 px-3 text-white fw-semibold bg-mini-cart-red "><i class="fas fa-user-plus"></i> Register</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  
+
+<section class="header">
+  <div class="container pt-4">
+    <div class="row d-flex align-items-center">
+      <div class="col-md-3 mb-3">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo/minicart-logo.svg" alt="minicart" width="180" >
+        </a>
+        
+      </div>
+      <div class="col-md-7">
+        <form method="GET">
+          <div class="input-group">
+
+              <input type="search" class="form-control remove-focus fw-semibold bg-search text-search-color border-none" name="search" id="search" placeholder="Search Products" aria-label="Search Products" aria-describedby="search-addon">
+              <span class="input-group-text bg-mini-cart-red" id="search-addon  p-0 m-0">
+                <button  class="btn bg-mini-cart-red text-white btn-sm" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </span>
+            </div>
+        </form>
+      </div>
+      <div class="col-md-2 d-none d-sm-block">
+        <div class="row">
+          <div class="col-sm-6 ">
+            <div class="notifications">
+              <a href="#"><i class="fa-sharp fa-solid fa-heart"></i>
+                <span class="heart-notification-count">12</span>
+              </a>
+             
+            </div>
+
+          </div>
+          <div class="col-sm-6">
+            <div class="notifications">
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i>
+                <span class="shopping-cart-count">12</span>
+              </a>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  </div>
+
+</section>
+<section class=" navigation">
+ 
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg nav-bg  navbar-light mt-4 py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+
+      <div class="container ">
+      
+        <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="  collapse navbar-collapse " id="navbarCollapse">
+            <div class="navbar-nav mx-auto  py-2  " >
+                <a href="index.html" class="nav-item  nav-link text-white">HOME</a>
+                <a href="about.html" class="nav-item nav-link  text-white">MEN'S WEAR</a>
+                <a href="service.html" class="nav-item nav-link text-white">WOMEN'S WEAR</a>
+                <a href="project.html" class="nav-item nav-link text-white">SANDALS</a>
+                <a href="project.html" class="nav-item nav-link text-white">SHIRTS</a>
+                <a href="project.html" class="nav-item nav-link text-white">SHORTS</a>
+                <a href="project.html" class="nav-item nav-link text-white">BAGS</a>
+                <a href="project.html" class="nav-item nav-link text-white">CONTACT US</a>
+        
+            </div>
+        </div>
+      </div>
+     
+  </nav>
+  <!-- Navbar End -->
+</section>
+
+<div class="container ">
+  <div class="row empty-bg col-md-p-5">
+
+    </div>
+  </div>
+</div>
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col-8">
+      <div class="row">
+      <div class="col-md-12 ps-md-0">
+        <img src="images/shoe.png" alt="" class="" width="100%">
+      </div>
+      </div>
+      <div class="col-12">
+        <div class="row mt-4">
+          <div class=" col-6">
+            <img src="images/image2.png" alt="" class="" width="100%" >
+          </div>
+          <div class="col-6">
+            <img src="images/shoppings.png" alt="" class="" width="100%" >
+          </div>
+        </div>
+      </div> 
+      </div>
+      <div class="col-4 pe-md-0">
+        <img src="images/Group 132.png" alt="" class="img-responsive" width="100%" >
+     </div>
+    </div>
+  </div>
+
+
+
+<div class="container Selection">
+  <div class="row mt-4 mb-4">
+    <div class="col-md-12 p-md-0">
+      <ul class="nav col-12 ">
+        <li class="active"><a href="#" class="nav-item  nav-link text-dark active">All Products</a></li>
+        <li><a href="#" class="nav-item  nav-link Selection">T-Shirt</a></li>
+        <li> <a href="#" class="nav-item  nav-link  Selection">hoodies</a></li>
+        <li> <a href="#" class="nav-item  nav-link  Selection">Jacket</a></li>
+        <li><a href="#" class="nav-item  nav-link text-white bg-dark filter"><i class="fa fa-filter me-1"></i>Filter</a></li>
+       </ul>
+    </div>
+    <ul class="nav d-flex justify-content-end mt-0">
+      
+     </ul>
+    </div>
+  </div>
+    
+<div class="container d-flex p-md-0 mb Products-text-style">
+  <div class="row " >
+    <div class="col-6 col-md-3 image-container ">
+      <div class="image-wrapper">
+        <img src="/images/top-product (8).png" alt="" width="100%">
+        <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+          <div class="icon-wrapper">
+            <i class="fa fa-heart me-3"></i>
+            <i class="fa fa-search"></i>
+          </div>
+          <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+        </div>
+      </div>
+      <div class="container mt-3 ">
+        <h6 class="mb-3">Adicolor Classics Joggers</h6>
+        <div class="d-flex justify-content-between p-tags-fonts-style">
+        <p style="color:rgba(0, 0, 0, 0.308);">Dress</p>
+        <p>N63.83</p>
+        </div>
+      </div>
+  </div>
+
+    <div class=" col-6 col-md-3 image-container">
+      <div class="image-wrapper">
+        <img src="/images/top-product.png" alt="" width="100%">
+        <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+          <div class="icon-wrapper">
+            <i class="fa fa-heart me-3"></i>
+            <i class="fa fa-search"></i>
+          </div>
+          <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+        </div>
+      </div>
+      <div class="container mt-3 ">
+        <h6 class="mb-3">Nike Sportswear Futura Luxe</h6>
+        <div class="d-flex justify-content-between p-tags-fonts-style">
+          <p style="color:rgba(0, 0, 0, 0.308);">Bag</p>
+        <p>N63.83</p>
+        </div>
+      </div>
+     </div>
+    <div class="col-6 col-md-3 image-container">
+      <div class="image-wrapper">
+        <img src="/images/top-product (6).png" alt="" width="100%">
+        <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+          <div class="icon-wrapper">
+            <i class="fa fa-heart me-3"></i>
+            <i class="fa fa-search"></i>
+          </div>
+          <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <h6 class="mb-3">Geometric print Scarf</h6>
+        <div class="d-flex justify-content-between p-tags-fonts-style">
+        <p style="color:rgba(0, 0, 0, 0.308);">Scarf</p>
+        <p>N63.83</p>
+        </div>
+      </div>
+    </div>
+    <div class=" col-6 col-md-3 image-container">
+      <div class="image-wrapper">
+        <img src="/images/top-product (5).png" alt="" width="100%">
+        <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+          <div class="icon-wrapper">
+            <i class="fa fa-heart me-3"></i>
+            <i class="fa fa-search"></i>
+          </div>
+          <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+        </div>
+      </div>
+      <div class="container mt-3 ">
+        <h6 class="mb-3">Yellow Reserved Hoodie</h6>
+        <div class="d-flex justify-content-between p-tags-fonts-style">
+        <p style="color:rgba(0, 0, 0, 0.308);">Dress</p>
+        <p>N63.83</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container d-flex p-md-0 mt-4 mb-5 Products-text-style">
+  <div class="row " >
+    <div class=" col-6 col-md-3 image-container">
+      <div class="image-wrapper">
+        <img src="/images/top-product (4).png" alt="" width="100%">
+        <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+          <div class="icon-wrapper">
+            <i class="fa fa-heart me-3"></i>
+            <i class="fa fa-search"></i>
+          </div>
+          <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+        </div>
+      </div>
+      <div class="container mt-3 ">
+        <h6 class="mb-3">Basic Dress Green</h6>
+        <div class="d-flex justify-content-between p-tags-fonts-style">
+        <p style="color:rgba(0, 0, 0, 0.308);">Dress</p>
+        <p>N63.83</p>
+        </div>
+      </div>
+    </div>
+   <div class="col-6 col-md-3 image-container">
+    <div class="image-wrapper">
+      <img src="/images/top-product (3).png" alt="" width="100%">
+      <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+        <div class="icon-wrapper">
+          <i class="fa fa-heart me-3"></i>
+          <i class="fa fa-search"></i>
+        </div>
+        <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+      </div>
+    </div>
+      <div class=" container mt-3 ">
+        <h6 class="mb-3">Nike Air Zoom Pegasus</h6>
+        <div class="d-flex justify-content-between p-tags-fonts-style">
+        <p style="color:rgba(0, 0, 0, 0.308);">Shoe</p>
+        <p  class="text-decoration-line-through col-md-ms-5 " style="color:rgba(0, 0, 0, 0.308);">N220.00</p>
+        <p class="ms-1" style="color: rgba(255, 0, 0, 0.552);">N198.00</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-3 image-container">
+      <div class="image-wrapper">
+        <img src="/images/top-product (2).png" alt="" width="100%">
+        <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+          <div class="icon-wrapper">
+            <i class="fa fa-heart me-3"></i>
+            <i class="fa fa-search"></i>
+          </div>
+          <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+        </div>
+      </div>
+      <div class="container mt-3 ">
+        <h6 class="mb-3">Nike Repel Miler</h6>
+        <div class="d-flex justify-content-between p-tags-fonts-style">
+        <p style="color:rgba(0, 0, 0, 0.308);">Dress</p>
+        <p>N63.83</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-3 image-container">
+      <div class="image-wrapper">
+        <img src="/images/top-product (1).png" alt="" width="100%">
+        <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+          <div class="icon-wrapper">
+            <i class="fa fa-heart me-3"></i>
+            <i class="fa fa-search"></i>
+          </div>
+          <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <h6 class="mb-3">Nike Sportswear Futura Luxe</h6>
+        <div class="d-flex justify-content-between p-tags-fonts-style">
+        <p style="color:rgba(0, 0, 0, 0.308);">Glasses</p>
+        <p>N63.83</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="brand-banner">
+  <div class="container col-md-p-0 mb-5">
+    <div class="row">
+      <div class="col-md-4 ">
+      </div>
+      <div class="col-md-3">
+        
+        </div>
+        <div class="col-md-5 text-white p-5">
+          <h1 class="text-white mt-5 lh-lg font-san-sarif ">ZARA</h1>
+          <P class="mt-4 lh-lg fw-light">Lustrous yet understated. The new evening <br>
+
+            wear collection exclusively offered at the <br>
+            
+            reopened Giorgio Armani boutique in Los
+            
+            Angeles</P>
+          <button class="btn btn-white p-3 px-5 text-dark rounded-0 fw-light">Collections</button>
+          </div>
+    </div>
+  </div>
+</section>
+
+<div class="container  text-center mb-5 mt-5">
+  <div class="row ">
+    <div class="col-md-12">
+      <h3>TOP SELLING OF THE WEEK</h3>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-3 image-container">
+        <div class="image-wrapper">
+          <div class="overlay-content-onhover d-flex justify-content-between  p-1 ">
+            <h6 class="mt-1">Manto</h6>
+            <h6 class="mt-1">86 Product</h6>
+        </div>
+          <img src="images/card9.png" alt="" width="100%">
+          <div class=" text-overlay-content">
+            <h6 class="mt-3 ms-3">Nike Repel Miler</h6>
+            <p class="ms-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At sapiente facere quasi provident hic? Libero velit nihil, consequatur nobis neque aperiam minima?</p>
+          </div>
+        </div>
+      </div>
+      <div class=" col-md-6 col-md-p-0 col-md-mt-0 ">
+        <div class="row">
+          <div class="col-6 col-md-6 mb-4">
+            <div class="image-wrapper">
+              <div class="overlay-content-onhover d-flex justify-content-between  p-1 ">
+                <h6 class="mt-1">Pants</h6>
+                <h6 class="mt-1">200 Product</h6>
+            </div>
+              <img src="/images/card10.png" alt="" width="100%">
+              <div class="text-overlay-wrapper">
+                <h6 class="mt-1 ms-3 dres-title p-0 mb-0">Nike Repel Miler</h6>
+                <div class=" p-0 d-flex justify-content-between ms-3 mt-1">
+                  <p class="mt-1 ">Dress</p>
+                  <p class="me-2 ">N4500</p> 
+                </div>
+              </div>
+            </div>
+            </div>
+           
+            <div class="col-6 col-md-6 ">
+            <div class="image-wrapper">
+              <div class="overlay-content-onhover d-flex justify-content-between  p-1 ">
+                <h6 class="mt-1">Coat</h6>
+                <h6 class="mt-1">520 Product</h6>
+            </div>
+              <img src="/images/card11.png" alt="" width="100%">
+              <div class="text-overlay-wrapper">
+                <h6 class="mt-1 ms-3 dres-title p-0 mb-0">Nike Repel Miler</h6>
+                <div class=" p-0 d-flex justify-content-between ms-3 mt-1">
+                  <p class="mt-1 ">Dress</p>
+                  <p class="me-2 ">N4500</p> 
+                </div>
+              </div>
+            </div>
+          </div>
+              <div class="col-6 col-md-6">
+                <div class="image-wrapper">
+                  <div class="overlay-content-onhover d-flex justify-content-between  p-1 ">
+                    <h6 class="mt-1">Shirt</h6>
+                    <h6 class="mt-1">320 Product</h6>
+                </div>
+                  <img src="/images/card12.png" alt="" width="100%">
+                  <div class="text-overlay-wrapper">
+                    <h6 class="mt-1 ms-3 dres-title p-0 mb-0">Nike Repel Miler</h6>
+                    <div class=" p-0 d-flex justify-content-between ms-3 mt-1">
+                      <p class="mt-1 ">Dress</p>
+                      <p class="me-2 ">N4500</p> 
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col-6 col-md-6">
+                <div class="image-wrapper">
+                  <div class="overlay-content-onhover d-flex justify-content-between  p-1 ">
+                      <h6 class="mt-1">Jacket</h6>
+                      <h6 class="mt-1">106 Product</h6>
+                  </div>
+                  <img src="/images/card13.png" alt="" width="100%">
+                  <div class="text-overlay-wrapper">
+                    <h6 class="mt-1 ms-3 dres-title p-0 mb-0">Nike Repel Miler</h6>
+                    <div class=" p-0 d-flex justify-content-between ms-3 mt-1">
+                      <p class="mt-1 ">Dress</p>
+                      <p class="me-2 ">N4500</p> 
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+</section>
+  
+<div class="container d-flex justify-content-center mt-4 contact-style">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>NEW ARRIVALS</h2>
+    </div>
+  </div>
+</div>
+        
+ <section class="">
+  <div class="container d-flex p-md-0 mb Products-text-style mt-4">
+    <div class="row " >
+      <div class="col-6 col-md-3">
+        <div class="image-wrapper">
+          <img src="/images/top-product (8).png" alt="" width="100%">
+          <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+            <div class="icon-wrapper">
+              <i class="fa fa-heart me-3"></i>
+              <i class="fa fa-search"></i>
+            </div>
+            <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+          </div>
+        </div>
+        <div class="container mt-3 ">
+          <h6 class="mb-3">Adicolor Classics Joggers</h6>
+          <div class="d-flex justify-content-between p-tags-fonts-style">
+          <p style="color:rgba(0, 0, 0, 0.308);">Dress</p>
+          <p>N63.83</p>
+          </div>
+        </div>
+      </div>
+      <div class=" col-6 col-md-3">
+        <div class="image-wrapper">
+          <img src="/images/top-product.png" alt="" width="100%">
+          <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+            <div class="icon-wrapper">
+              <i class="fa fa-heart me-3"></i>
+              <i class="fa fa-search"></i>
+            </div>
+            <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+          </div>
+        </div>
+       <div class="container mt-3 ">
+          <h6 class="mb-3">Nike Sportswear Futura Luxe</h6>
+          <div class="d-flex justify-content-between p-tags-fonts-style">
+            <p style="color:rgba(0, 0, 0, 0.308);">Bag</p>
+          <p>N63.83</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="image-wrapper">
+          <img src="/images/top-product (6).png" alt="" width="100%">
+          <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+            <div class="icon-wrapper">
+              <i class="fa fa-heart me-3"></i>
+              <i class="fa fa-search"></i>
+            </div>
+            <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+          </div>
+        </div>
+        <div class="container mt-3 ">
+          <h6 class="mb-3">Geometric print Scarf</h6>
+          <div class="d-flex justify-content-between p-tags-fonts-style">
+          <p style="color:rgba(0, 0, 0, 0.308);">Scarf</p>
+          <p>N63.83</p>
+          </div>
+        </div>
+      </div>
+      <div class=" col-6 col-md-3">
+        <div class="image-wrapper">
+          <img src="/images/top-product (5).png" alt="" width="100%">
+          <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+            <div class="icon-wrapper">
+              <i class="fa fa-heart me-3"></i>
+              <i class="fa fa-search"></i>
+            </div>
+            <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+          </div>
+        </div>
+       <div class="container mt-3 ">
+          <h6 class="mb-3">Yellow Reserved Hoodie</h6>
+          <div class="d-flex justify-content-between p-tags-fonts-style">
+          <p style="color:rgba(0, 0, 0, 0.308);">Dress</p>
+          <p>N63.83</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container d-flex p-md-0 mt-4 mb-5 Products-text-style ">
+    <div class="row " >
+      <div class=" col-6 col-md-3">
+        <div class="image-wrapper">
+          <img src="/images/top-product (4).png" alt="" width="100%">
+          <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+            <div class="icon-wrapper">
+              <i class="fa fa-heart me-3"></i>
+              <i class="fa fa-search"></i>
+            </div>
+            <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+          </div>
+        </div>
+       <div class="container mt-3 ">
+          <h6 class="mb-3">Basic Dress Green</h6>
+          <div class="d-flex justify-content-between p-tags-fonts-style">
+          <p style="color:rgba(0, 0, 0, 0.308);">Dress</p>
+          <p>N63.83</p>
+          </div>
+        </div>
+      </div>
+     <div class="col-6 col-md-3 ">
+      <div class="image-wrapper">
+        <img src="/images/top-product (3).png" alt="" width="100%">
+        <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+          <div class="icon-wrapper">
+            <i class="fa fa-heart me-3"></i>
+            <i class="fa fa-search"></i>
+          </div>
+          <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+        </div>
+      </div>
+       <div class=" container mt-3 ">
+          <h6 class="mb-3">Nike Air Zoom Pegasus</h6>
+          <div class="d-flex justify-content-between p-tags-fonts-style">
+          <p style="color:rgba(0, 0, 0, 0.308);">Shoe</p>
+          <p  class="text-decoration-line-through col-md-ms-5 " style="color:rgba(0, 0, 0, 0.308);">N220.00</p>
+          <p class="ms-1" style="color: rgba(255, 0, 0, 0.552);">N198.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="image-wrapper">
+          <img src="/images/top-product (2).png" alt="" width="100%">
+          <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+            <div class="icon-wrapper">
+              <i class="fa fa-heart me-3"></i>
+              <i class="fa fa-search"></i>
+            </div>
+            <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+          </div>
+        </div>
+       <div class="container mt-3 ">
+          <h6 class="mb-3">Nike Repel Miler</h6>
+          <div class="d-flex justify-content-between p-tags-fonts-style">
+          <p style="color:rgba(0, 0, 0, 0.308);">Dress</p>
+          <p>N63.83</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="image-wrapper">
+          <div class=" d-flex justify-content-around text-white text-overlay-bg p-3">
+            <div class="Content-bg rounded-pill p-2 ">
+              <a href="#" class="nav-item  nav-link text-dark"><i class="fa-solid fa-cart-shopping me-1"></i>Add Cart</a>
+            </div>
+            <div class="Content-bg rounded-pill p-2">
+              <a href="#" class="nav-item  nav-link text-dark"><i class="fa fa-heart me-1"></i>Wishlist</a>
+            </div>
+          </div>
+          <img src="/images/top-product (1).png" alt="" width="100%">
+          <div class="text-overlay bg-dark text-white d-flex justify-content-between p-2">
+            <div class="icon-wrapper">
+              <i class="fa fa-heart me-3"></i>
+              <i class="fa fa-search"></i>
+            </div>
+            <a href="#" class="text-decoration-none text-white shop-now"><i class="fa fa-shopping-bag me-1"></i>Shop Now</a>
+          </div>
+        </div>
+        <div class="container mt-3">
+          <h6 class="mb-3">Nike Sportswear Futura Luxe</h6>
+          <div class="d-flex justify-content-between p-tags-fonts-style">
+          <p style="color:rgba(0, 0, 0, 0.308);">Glasses</p>
+          <p>N63.83</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+
+<section>
+  <div class="container col-md-p-0 mt-5 contact-style  fst-normal">
+    <div class="row">
+      <div class="col-6 col-md-3 mb-4">
+        <img src="images/logo/minicart-logo.svg" class="mb-3" width="50%">
+        <p class=" pt-2 lh-lg ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia eum cumque l est sapiente debitis?</p>
+        <div class="row">
+          <div class="col-6 col-md-6 d-flex justify-content-between lh-lg">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      
+    <div class=" nav col-6 col-md-3 d-flex flex-column">
+      <h2 class="nav-item  nav-link text-dark ">CATALOG</h2>
+      <a href="#"class="nav-item  nav-link text-dark">Necklaces</a>
+      <a href="#"class="nav-item  nav-link text-dark">hoodies</a>
+      <a href="#"class="nav-item  nav-link text-dark">Jewelry Box</a>
+      <a href="#"class="nav-item  nav-link text-dark">t-shirt</a>
+      <a href="#"class="nav-item  nav-link text-dark">jacket</a>
+    </div>
+    <div class="nav  col-6 col-md-3 d-flex flex-column pt-2">
+          <h6 class="nav-item  nav-link text-dark">ABOUT US</h6>
+          <a href="#"class="nav-item  nav-link text-dark">Our Products</a>
+          <a href="#"class="nav-item  nav-link text-dark">Sitemap</a>
+          <a href="#"class="nav-item  nav-link text-dark">FAQ</a>
+          <a href="#"class="nav-item  nav-link text-dark">About Us</a>
+          <a href="#"class="nav-item  nav-link text-dark">Terms & Conditions</a>
+      </div>
+      
+      <div class=" nav col-6 col-md-3 d-flex flex-column  pt-2">
+        <h6 class="nav-item  nav-link text-dark">CUSTOMER SERVICES</h6>
+        <a href="#"class="nav-item  nav-link text-dark">Contact Us</a>
+        <a href="#"class="nav-item  nav-link text-dark">Track Your Order</a>
+        <a href="#"class="nav-item  nav-link text-dark">Product Care & Repair</a>
+        <a href="#"class="nav-item  nav-link text-dark">Book an Appointment</a>
+        <a href="#"class="nav-item  nav-link text-dark">Shipping & Returns</a>
+      </div>
+  </div>
+</div>
+</section>
+
+<footer>
+  <div class="container-fluid bg-dark text-white  align-self-center mt-5">
+    <div class="row d-flex justify-content-between ">
+      <div class="col-5 col-md-4 d-flex justify-content-center align-self-center mt-2">
+        <p>2022 minicart , Inc.</p>
+      </div>
+      <div class="col-3 col-md-4 m-auto ">
+        <img src="/images/icons_payment 1.png" alt="" class="" width="80%">
+      </div>
+      <div class="col-4 col-md-4 mt-2">
+        <button onclick="scrollToTop()" id="scrollToTopBtn" class=" btn btn-dark fs-6">Scroll To Top<i class="fa-solid fa-arrow-up ms-1"></i></button>
+
+      </div>
+    </div>
+  </div>
+  
+</footer>
+</body>
+</html>
+
